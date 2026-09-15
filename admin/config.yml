@@ -50,6 +50,10 @@ collections:
         file: "content/pagina.json"
         fields:
           - { name: "nombre", label: "Nombre", widget: "string" }
-          - { name: "bio", label: "Bio (texto del CV)", widget: "text" }
+          - name: "bio"
+            label: "Bio (texto del CV)"
+            widget: "markdown"
+            buttons: ["bold", "italic", "link"]
+            hint: "Usá los botones de la barra para negrita, cursiva o links. Apretá Enter dos veces para un párrafo nuevo."
           - { name: "email_contacto", label: "Correo de contacto", widget: "string" }
           - { name: "instagram", label: "Instagram (URL completa)", widget: "string" }
