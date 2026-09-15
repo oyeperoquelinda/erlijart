@@ -1,0 +1,55 @@
+backend:
+  name: github
+  repo: TU-USUARIO/TU-REPO # <-- reemplazar, ej: gonzalo/erlij-art
+  branch: main
+  base_url: https://sveltia-cms-auth.TU-SUBDOMINIO.workers.dev # <-- reemplazar con la URL del Worker (paso 3 de la guía)
+
+site_url: https://erlij.art
+display_url: https://erlij.art
+logo_url: https://erlij.art/img/cer-a-mano-1.jpg
+
+media_folder: "img"
+public_folder: "img"
+
+collections:
+  - name: "obras"
+    label: "Obras"
+    files:
+      - name: "obras"
+        label: "Obras"
+        file: "content/obras.json"
+        fields:
+          - name: "obras"
+            label: "Obras"
+            label_singular: "Obra"
+            widget: "list"
+            summary: "{{titulo}} — {{coleccion}}"
+            fields:
+              - { name: "titulo", label: "Título", widget: "string" }
+              - name: "coleccion"
+                label: "Colección"
+                widget: "select"
+                options:
+                  - { label: "Cerámica", value: "ceramica" }
+                  - { label: "Latas", value: "latas" }
+                  - { label: "Otras cosas", value: "otras" }
+              - { name: "materiales", label: "Materiales", widget: "string", required: false, hint: "Ej: Lata antigua, arcilla blanca, figura de ferromodelismo" }
+              - { name: "medidas", label: "Medidas", widget: "string", required: false, hint: "Ej: 11 × 6,5 × 3,2 cm" }
+              - { name: "año", label: "Año", widget: "string", required: false, hint: "Ej: 2026 o 2025-2026" }
+              - name: "imagenes"
+                label: "Fotos"
+                widget: "list"
+                summary: "{{fields.imagen}}"
+                field: { name: "imagen", label: "Foto", widget: "image" }
+
+  - name: "pagina"
+    label: "Página (bio y contacto)"
+    files:
+      - name: "pagina"
+        label: "Datos generales"
+        file: "content/pagina.json"
+        fields:
+          - { name: "nombre", label: "Nombre", widget: "string" }
+          - { name: "bio", label: "Bio (texto del CV)", widget: "text" }
+          - { name: "email_contacto", label: "Correo de contacto", widget: "string" }
+          - { name: "instagram", label: "Instagram (URL completa)", widget: "string" }

@@ -1,0 +1,348 @@
+{
+  "obras": [
+    {
+      "titulo": "5 horas y 3 minutos",
+      "coleccion": "ceramica",
+      "materiales": "Cerámica de alta temperatura, esmaltes, figuras de ferromodelismo",
+      "medidas": "11 × 13 × 11 cm",
+      "año": "2025",
+      "imagenes": [
+        "img/cer-5-horas-y-3-minutos-1.jpg",
+        "img/cer-5-horas-y-3-minutos-2.jpg",
+        "img/cer-5-horas-y-3-minutos-3.jpg",
+        "img/cer-5-horas-y-3-minutos-4.jpg",
+        "img/cer-5-horas-y-3-minutos-5.jpg",
+        "img/cer-5-horas-y-3-minutos-6.jpg",
+        "img/cer-5-horas-y-3-minutos-7.jpg"
+      ]
+    },
+    {
+      "titulo": "A mano",
+      "coleccion": "ceramica",
+      "materiales": "Cerámica de alta temperatura, esmaltes, engobes, figuras de ferromodelismo",
+      "medidas": "13 × 18 × 12 cm",
+      "año": "2025-2026",
+      "imagenes": [
+        "img/cer-a-mano-1.jpg",
+        "img/cer-a-mano-2.jpg",
+        "img/cer-a-mano-3.jpg",
+        "img/cer-a-mano-4.jpg",
+        "img/cer-a-mano-5.jpg"
+      ]
+    },
+    {
+      "titulo": "Autocuidado",
+      "coleccion": "ceramica",
+      "materiales": "Cerámica de alta temperatura, esmaltes, figura de ferromodelismo, 6, 5 × 12 × 7",
+      "medidas": "5 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/cer-autocuidado-1.jpg",
+        "img/cer-autocuidado-2.jpg",
+        "img/cer-autocuidado-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Derrame",
+      "coleccion": "ceramica",
+      "materiales": "Cerámica de alta temperatura, esmaltes, figuras de ferromodelismo",
+      "medidas": "27 × 22 × 7 cm (con marco)",
+      "año": "2025",
+      "imagenes": [
+        "img/cer-derrame-1.jpg",
+        "img/cer-derrame-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Fácil preparación",
+      "coleccion": "ceramica",
+      "materiales": "Cerámica de alta temperatura y figura de ferromodelismo, 16, 5 × 16",
+      "medidas": "5 cm",
+      "año": "2025",
+      "imagenes": [
+        "img/cer-facil-preparacion-1.jpg",
+        "img/cer-facil-preparacion-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Larga duración",
+      "coleccion": "ceramica",
+      "materiales": "cerámica de alta temperatura, 6, 5 × 12 × 7",
+      "medidas": "5 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/cer-larga-duracion-1.jpg",
+        "img/cer-larga-duracion-2.jpg",
+        "img/cer-larga-duracion-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Lo que queda del día II",
+      "coleccion": "ceramica",
+      "materiales": "Loza, figura de ferromodelismo",
+      "medidas": "26 × 22 cm × 7 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/cer-lo-que-queda-del-dia-ii-1.jpg",
+        "img/cer-lo-que-queda-del-dia-ii-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Lo que queda del día I",
+      "coleccion": "ceramica",
+      "materiales": "Loza, figura de ferromodelismo",
+      "medidas": "26 × 22 cm × 7 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/cer-lo-que-queda-del-dia-i-1.jpg",
+        "img/cer-lo-que-queda-del-dia-i-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Pequeña labor",
+      "coleccion": "ceramica",
+      "materiales": "Cerámica de alta temperatura, 11",
+      "medidas": "5 × 8 × 12 × cm",
+      "año": "2025",
+      "imagenes": [
+        "img/cer-pequena-labor-1.jpg",
+        "img/cer-pequena-labor-2.jpg",
+        "img/cer-pequena-labor-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Vieja bruja",
+      "coleccion": "ceramica",
+      "materiales": "Cerámica de alta temperatura y figuras de ferromodelismo",
+      "medidas": "27 × 22 × 7 cm (enmarcada)",
+      "año": "2026",
+      "imagenes": [
+        "img/cer-vieja-bruja-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Acopio",
+      "coleccion": "latas",
+      "materiales": "Lata, figuras de ferromodelismo, mosaicos de acrílico, residuos (madera, arcilla, plástico), acrílicos, arcilla blanca, luz LED, 24",
+      "medidas": "5 × 18 × 7 cm (marco)",
+      "año": "2026",
+      "imagenes": [
+        "img/lat-acopio-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Alguien te mira",
+      "coleccion": "latas",
+      "materiales": "Lata antigua, figuras de ferromodelismo, arcilla blanca, vidrio triturado para decoración de uñas, ojos de muñeco, 11 × 6, 5 × 3",
+      "medidas": "2 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/lat-alguien-te-mira-1.jpg",
+        "img/lat-alguien-te-mira-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Ansiedad",
+      "coleccion": "latas",
+      "materiales": "Lata de sardinas, figuras de ferromodelismo, papel de revista, chapa de madera, arcilla blanca, 11 × 6, 5 × 3",
+      "medidas": "2 cm",
+      "año": "2024",
+      "imagenes": [
+        "img/lat-ansiedad-1.jpg",
+        "img/lat-ansiedad-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Bajo en sodio",
+      "coleccion": "latas",
+      "materiales": "Lata de sardinas, figuras de ferromodelismo, hoja de libro de arte, chapa de madera, arcilla, 7, 5 × 11, 5 × 3",
+      "medidas": "2 cms",
+      "año": "2024",
+      "imagenes": [
+        "img/lat-bajo-en-sodio-1.jpg",
+        "img/lat-bajo-en-sodio-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Calmante",
+      "coleccion": "latas",
+      "materiales": "Lata antigua, figura de ferromodelismo, arcilla blanca, cristales de vidrio para uñas, cuchara de metal, 6 × 5 × 7",
+      "medidas": "5 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/lat-calmante-1.jpg",
+        "img/lat-calmante-2.jpg",
+        "img/lat-calmante-3.jpg",
+        "img/lat-calmante-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Cortocircuito",
+      "coleccion": "latas",
+      "materiales": "Lata, figuras de ferromodelismo, cables de alta tensión, arcilla blanca, acrílicos, 11 × 6, 5 × 3",
+      "medidas": "2 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/lat-cortocircuito-1.jpg",
+        "img/lat-cortocircuito-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Cuesta arriba",
+      "coleccion": "latas",
+      "materiales": "Lata antigua, figuras de ferromodelismo, burbujas de decoración para uñas, arcilla blanca, acrílicos, 10, 5 × 10",
+      "medidas": "5 × 7 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/lat-cuesta-arriba-1.jpg",
+        "img/lat-cuesta-arriba-2.jpg",
+        "img/lat-cuesta-arriba-3.jpg"
+      ]
+    },
+    {
+      "titulo": "Día de la mujer",
+      "coleccion": "latas",
+      "materiales": "Lata, figura de ferromodelismo, cepillo de rimmel, chapa de madera, barniz envejecedor, papel de revista, brillos de plástico, 11, 5 × 12",
+      "medidas": "5 × 7 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/lat-dia-de-la-mujer-1.jpg"
+      ]
+    },
+    {
+      "titulo": "El show debe continuar",
+      "coleccion": "latas",
+      "materiales": "Lata, figura de ferromodelismo, coladores de juguete, cuarzo molido, chapa de madera, arcilla blanca, papel de revista, 6 × 10",
+      "medidas": "5 × 3 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/lat-el-show-debe-continuar-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Elongación",
+      "coleccion": "latas",
+      "materiales": "Lata, figura de ferromodelismo, papel de revista, cadena de metal, arcilla blanca, 6 × 10",
+      "medidas": "5 × 3 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/lat-elongacion-1.jpg",
+        "img/lat-elongacion-2.jpg"
+      ]
+    },
+    {
+      "titulo": "En un parpadeo",
+      "coleccion": "latas",
+      "materiales": "Lata, figura de ferromodelismo, pestañas falsas, rimmel, pasto de maqueta, espejo, cadena metálica, papel de revista",
+      "medidas": "13 × 7 × 3 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/lat-en-un-parpadeo-1.jpg",
+        "img/lat-en-un-parpadeo-2.jpg"
+      ]
+    },
+    {
+      "titulo": "La hora del baño",
+      "coleccion": "latas",
+      "materiales": "Lata antigua, yeso piedra, figuras de ferromodelismo, arcilla blanca y polvo de terciopelo para uñas",
+      "medidas": "11 × 7 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/lat-la-hora-del-bano-1.jpg",
+        "img/lat-la-hora-del-bano-2.jpg",
+        "img/lat-la-hora-del-bano-3.jpg"
+      ]
+    },
+    {
+      "titulo": "No todo lo que brilla",
+      "coleccion": "latas",
+      "materiales": "Lata antigua, figura de ferromodelismo, vidrio triturado, arcilla blanca, 12 × 10 × 11",
+      "medidas": "3 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/lat-no-todo-lo-que-brilla-1.jpg",
+        "img/lat-no-todo-lo-que-brilla-2.jpg",
+        "img/lat-no-todo-lo-que-brilla-3.jpg",
+        "img/lat-no-todo-lo-que-brilla-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Obsesión",
+      "coleccion": "latas",
+      "materiales": "Lata de sardinas, figuras de ferromodelismo, papel de revista, chapa de madera, arcilla, 7, 5 × 11, 5 × 3",
+      "medidas": "2 cms",
+      "año": "2024",
+      "imagenes": [
+        "img/lat-obsesion-1.jpg",
+        "img/lat-obsesion-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Sacar brillo",
+      "coleccion": "latas",
+      "materiales": "Lata antigua, figuras de ferromodelismo, vidrio triturado, arcilla blanca, 13 × 11",
+      "medidas": "5 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/lat-sacar-brillo-1.jpg",
+        "img/lat-sacar-brillo-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Sequía",
+      "coleccion": "latas",
+      "materiales": "Lata antigua, figura de ferromodelismo, ramas de enredadera, papel de revista, pasto para dioramas, arcilla blanca",
+      "medidas": "8 × 11 × 3 cm",
+      "año": "2024",
+      "imagenes": [
+        "img/lat-sequia-1.jpg",
+        "img/lat-sequia-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Un lujo",
+      "coleccion": "latas",
+      "materiales": "Lata de sardinas, microcristales para decoración de uñas, papel de revista, clips, chapa de madera, arcilla blanca, 11 × 6, 5 × 3",
+      "medidas": "2 cm",
+      "año": "2024",
+      "imagenes": [
+        "img/lat-un-lujo-1.jpg",
+        "img/lat-un-lujo-2.jpg"
+      ]
+    },
+    {
+      "titulo": "Escala doméstica",
+      "coleccion": "otras",
+      "materiales": "Refrigerador de juguete (metal), figuras de ferromodelismo, arcilla blanca, madera de balsa, acrílicos, vegetación natural seca, vegetación para maquetas, mini luz LED a pilas",
+      "medidas": "12 × 12 × 19 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/otr-escala-domestica-1.jpg",
+        "img/otr-escala-domestica-2.jpg",
+        "img/otr-escala-domestica-3.jpg",
+        "img/otr-escala-domestica-4.jpg"
+      ]
+    },
+    {
+      "titulo": "Fecha de vencimiento",
+      "coleccion": "otras",
+      "materiales": "Técnica: mixta",
+      "medidas": "16 × 16 × 4 cm",
+      "año": "2026",
+      "imagenes": [
+        "img/otr-fecha-de-vencimiento-1.jpg"
+      ]
+    },
+    {
+      "titulo": "Todas las horas del día",
+      "coleccion": "otras",
+      "materiales": "Reloj antiguo de fabricación chilena, figuras de ferromodelismo",
+      "medidas": "14 × 14 cm (enmarcado)",
+      "año": "2025",
+      "imagenes": [
+        "img/otr-todas-las-horas-del-dia-1.jpg",
+        "img/otr-todas-las-horas-del-dia-2.jpg"
+      ]
+    }
+  ]
+}
