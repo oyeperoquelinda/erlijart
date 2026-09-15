@@ -115,6 +115,9 @@
   }
   .cv .entry { display: flex; gap: 20px; margin-bottom: 6px; }
   .cv .year { color: var(--muted); flex: 0 0 40px; }
+  .cv .bio p { margin-bottom: 14px; }
+  .cv .bio p:last-child { margin-bottom: 0; }
+  .cv .bio strong { font-weight: 600; }
 
   /* ---------- Contacto ---------- */
   .contact { max-width: 480px; font-size: 15px; line-height: 1.8; }
@@ -214,7 +217,7 @@
     <p class="page-title"><strong>CV</strong></p>
     <div class="cv">
       <h2>Bio</h2>
-      <p id="bio-text"></p>
+      <div class="bio" id="bio-text"></div>
     </div>
   </section>
 
@@ -293,6 +296,19 @@
     return (s || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
 
+  // Convierte un texto simple con **negrita**, *cursiva*, [link](url) y
+  // párrafos separados por línea en blanco, a HTML seguro.
+  function mdToHtml(md) {
+    let text = escapeHtml(md || '');
+    text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+    text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    text = text.replace(/(^|[^*])\*([^*\n]+)\*(?!\*)/g, '$1<em>$2</em>');
+    text = text.replace(/_([^_\n]+)_/g, '<em>$1</em>');
+    const paragraphs = text.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
+    if (!paragraphs.length) return '';
+    return paragraphs.map(p => '<p>' + p.replace(/\n/g, '<br>') + '</p>').join('');
+  }
+
   function detailsOf(obra) {
     return [obra.materiales, obra.medidas, obra.año].filter(Boolean).join(', ');
   }
@@ -337,7 +353,7 @@
         document.getElementById('footer-name').textContent = p.nombre;
         document.title = p.nombre;
       }
-      if (p.bio) document.getElementById('bio-text').textContent = p.bio;
+      if (p.bio) document.getElementById('bio-text').innerHTML = mdToHtml(p.bio);
       if (p.email_contacto) {
         const a = document.getElementById('contact-email');
         a.textContent = p.email_contacto;
