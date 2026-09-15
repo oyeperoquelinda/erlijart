@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: TU-USUARIO/TU-REPO # <-- reemplazar, ej: gonzalo/erlij-art
+  repo: oyeperoquelinda/erlijart
   branch: main
-  base_url: https://sveltia-cms-auth.TU-SUBDOMINIO.workers.dev # <-- reemplazar con la URL del Worker (paso 3 de la guía)
+  base_url: https://sveltia-cms-auth.gmaier.workers.dev
 
 site_url: https://erlij.art
 display_url: https://erlij.art
