@@ -1,19 +1,13 @@
 {
   "obras": [
     {
-      "titulo": "5 horas y 3 minutos",
-      "coleccion": "ceramica",
-      "materiales": "Cerámica de alta temperatura, esmaltes, figuras de ferromodelismo",
-      "medidas": "11 × 13 × 11 cm",
-      "año": "2025",
+      "titulo": "Vacaciones escolares",
+      "coleccion": "latas",
+      "materiales": "Lata antigua de cera para zapatos, virutas de lápices de colores, fragmentos de minas de colores, figuras de ferromodelismo",
+      "medidas": "6 x 6 x 4 cm",
+      "año": "2026",
       "imagenes": [
-        "img/cer-5-horas-y-3-minutos-1.jpg",
-        "img/cer-5-horas-y-3-minutos-2.jpg",
-        "img/cer-5-horas-y-3-minutos-3.jpg",
-        "img/cer-5-horas-y-3-minutos-4.jpg",
-        "img/cer-5-horas-y-3-minutos-5.jpg",
-        "img/cer-5-horas-y-3-minutos-6.jpg",
-        "img/cer-5-horas-y-3-minutos-7.jpg"
+        "/img/lata.jpeg"
       ]
     },
     {
@@ -21,7 +15,7 @@
       "coleccion": "ceramica",
       "materiales": "Cerámica de alta temperatura, esmaltes, engobes, figuras de ferromodelismo",
       "medidas": "13 × 18 × 12 cm",
-      "año": "2025-2026",
+      "año": "2026",
       "imagenes": [
         "img/cer-a-mano-1.jpg",
         "img/cer-a-mano-2.jpg",
