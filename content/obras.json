@@ -337,6 +337,17 @@
         "img/otr-todas-las-horas-del-dia-1.jpg",
         "img/otr-todas-las-horas-del-dia-2.jpg"
       ]
+    },
+    {
+      "titulo": "Crianza respetuosa",
+      "coleccion": "latas",
+      "materiales": "Lata antigua de pastillas alemanas, tachas de nail art, cadena, roca, figura de ferromodelismo, muñequito antiguo",
+      "medidas": "10 × 12 × 6 cm",
+      "año": "2026",
+      "imagenes": [
+        "/img/IMG_1506.jpeg",
+        "/img/IMG_1509.jpeg"
+      ]
     }
   ]
 }
