@@ -24,6 +24,7 @@ collections:
             label_singular: "Obra"
             widget: "list"
             summary: "{{titulo}} — {{coleccion}}"
+            add_to_top: true
             fields:
               - { name: "titulo", label: "Título", widget: "string" }
               - name: "coleccion"
