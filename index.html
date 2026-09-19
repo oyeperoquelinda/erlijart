@@ -124,6 +124,16 @@
   .contact a { border-bottom: 1px solid var(--line); }
   .contact a:hover { border-color: var(--text); }
 
+  /* ---------- Catálogo ---------- */
+  .catalogo { max-width: 480px; font-size: 15px; line-height: 1.8; }
+  .catalogo-download {
+    display: inline-block;
+    border: 1px solid var(--line);
+    padding: 10px 18px;
+    margin-top: 4px;
+  }
+  .catalogo-download:hover { border-color: var(--text); }
+
   /* ---------- Lightbox ---------- */
   .lightbox {
     display: none;
@@ -184,6 +194,7 @@
     <a data-page="otras">Otras cosas</a>
     <span class="group-label">Info</span>
     <a data-page="cv">CV</a>
+    <a data-page="catalogo">Catálogo</a>
     <a data-page="contacto">Contacto</a>
   </nav>
   <div class="footer">
@@ -218,6 +229,15 @@
     <div class="cv">
       <h2>Bio</h2>
       <div class="bio" id="bio-text"></div>
+    </div>
+  </section>
+
+  <!-- Catálogo -->
+  <section class="page" id="catalogo">
+    <p class="page-title"><strong>Catálogo</strong></p>
+    <div class="catalogo">
+      <p id="catalogo-empty" class="empty-note">Todavía no hay catálogo disponible.</p>
+      <a id="catalogo-link" class="catalogo-download" href="" target="_blank" style="display:none;">Descargar catálogo (PDF) ↓</a>
     </div>
   </section>
 
@@ -362,6 +382,12 @@
       if (p.instagram) {
         document.getElementById('ig-link').href = p.instagram;
         document.getElementById('contact-ig').href = p.instagram;
+      }
+      if (p.catalogo_pdf) {
+        const link = document.getElementById('catalogo-link');
+        link.href = p.catalogo_pdf;
+        link.style.display = 'inline-block';
+        document.getElementById('catalogo-empty').style.display = 'none';
       }
     })
     .catch(() => {});
