@@ -58,3 +58,8 @@ collections:
             hint: "Usá los botones de la barra para negrita, cursiva o links. Apretá Enter dos veces para un párrafo nuevo."
           - { name: "email_contacto", label: "Correo de contacto", widget: "string" }
           - { name: "instagram", label: "Instagram (URL completa)", widget: "string" }
+          - name: "catalogo_pdf"
+            label: "Catálogo (PDF)"
+            widget: "file"
+            required: false
+            hint: "Subí el PDF del catálogo. Al subir uno nuevo, reemplaza al anterior en la web."
