@@ -119,6 +119,14 @@
   .cv .bio p:last-child { margin-bottom: 0; }
   .cv .bio strong { font-weight: 600; }
 
+  /* ---------- Sobre la obra ---------- */
+  .texto { max-width: 560px; }
+  .texto p { margin-bottom: 14px; }
+  .texto p:last-child { margin-bottom: 0; }
+  .texto strong { font-weight: 600; }
+  .texto a { border-bottom: 1px solid var(--line); }
+  .texto a:hover { border-color: var(--text); }
+
   /* ---------- Contacto ---------- */
   .contact { max-width: 480px; font-size: 15px; line-height: 1.8; }
   .contact a { border-bottom: 1px solid var(--line); }
@@ -194,6 +202,7 @@
     <a data-page="otras">Otras cosas</a>
     <span class="group-label">Info</span>
     <a data-page="cv">CV</a>
+    <a data-page="sobre-la-obra">Sobre la obra</a>
     <a data-page="catalogo">Catálogo</a>
     <a data-page="contacto">Contacto</a>
   </nav>
@@ -229,6 +238,14 @@
     <div class="cv">
       <h2>Bio</h2>
       <div class="bio" id="bio-text"></div>
+    </div>
+  </section>
+
+  <!-- Sobre la obra -->
+  <section class="page" id="sobre-la-obra">
+    <p class="page-title"><strong>Sobre la obra</strong></p>
+    <div class="texto" id="sobre-la-obra-text">
+      <p class="empty-note">Todavía no hay texto acá.</p>
     </div>
   </section>
 
@@ -374,6 +391,7 @@
         document.title = p.nombre;
       }
       if (p.bio) document.getElementById('bio-text').innerHTML = mdToHtml(p.bio);
+      if (p.sobre_la_obra) document.getElementById('sobre-la-obra-text').innerHTML = mdToHtml(p.sobre_la_obra);
       if (p.email_contacto) {
         const a = document.getElementById('contact-email');
         a.textContent = p.email_contacto;
