@@ -44,7 +44,7 @@ collections:
                 field: { name: "imagen", label: "Foto", widget: "image" }
 
   - name: "pagina"
-    label: "Página (bio y contacto)"
+    label: "Página (bio, sobre la obra y contacto)"
     files:
       - name: "pagina"
         label: "Datos generales"
@@ -56,6 +56,12 @@ collections:
             widget: "markdown"
             buttons: ["bold", "italic", "link"]
             hint: "Usá los botones de la barra para negrita, cursiva o links. Apretá Enter dos veces para un párrafo nuevo."
+          - name: "sobre_la_obra"
+            label: "Sobre la obra"
+            widget: "markdown"
+            required: false
+            buttons: ["bold", "italic", "link"]
+            hint: "Texto de la pestaña 'Sobre la obra'. Enter dos veces para un párrafo nuevo."
           - { name: "email_contacto", label: "Correo de contacto", widget: "string" }
           - { name: "instagram", label: "Instagram (URL completa)", widget: "string" }
           - name: "catalogo_pdf"
