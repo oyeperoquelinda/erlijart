@@ -66,6 +66,6 @@ collections:
           - { name: "instagram", label: "Instagram (URL completa)", widget: "string" }
           - name: "catalogo_pdf"
             label: "Catálogo (PDF)"
-            widget: "file"
+            widget: "string"
             required: false
-            hint: "Subí el PDF del catálogo. Al subir uno nuevo, reemplaza al anterior en la web."
+            hint: "Primero subí el PDF directo en GitHub (repositorio → carpeta img → Add file → Upload files). Después escribí acá la ruta, por ejemplo: img/catalogo.pdf"
